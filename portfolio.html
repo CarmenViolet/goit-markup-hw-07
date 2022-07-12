@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+                <nav class="navigation">
+                    <a href="index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
+                    <ul class="navigation-links list">
+                        <li class="item"><a href="./index.html" class="link-navigation">Студия</a></li>
+                        <li class="item"><a href="portfolio.html" class="link-navigation current">Портфолио</a></li>
+                        <li class="item"><a href="/" class="link-navigation">Контакты</a></li>
+                    </ul>
+                </nav>
+                    <ul class="contacts list">
+                        <li class="item">
+                        <a href="mailto:info@devstudio.com" class="email">
+                        <span>
+                            <svg class="icon-envelope" width="16px" height="12px">
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>
+                        </span>
+                    info@devstudio.com</a>
+                    </li>
+                        <li class="item">
+                        <a href="tel:+380961111111" class="tel">
+                        <span>
+                            <svg class="icon-smartphone" width="10px" height="16px">
+                                <use href="./images/sprite.svg#icon-smartphone"></use>
+                            </svg>
+                        </span>
+                        +38 096 111 11 11</a>
+                    </li>
+                    </ul>
+        </div>
+</header>
+    <!-- Основная информация -->
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title hidden">Примеры работ</h1>
+                <ul class="filter-btn-list">
+                    <li class="f-button"><button type="button" class="filter-btn-item current">Все</button></li>
+                    <li class="f-button"><button type="button" class="filter-btn-item">Веб-сайты</button></li>
+                    <li class="f-button"><button type="button" class="filter-btn-item">Приложения</button></li>
+                    <li class="f-button"><button type="button" class="filter-btn-item">Дизайн</button></li>
+                    <li class="f-button"><button type="button" class="filter-btn-item">Маркетинг</button></li>
+                </ul>
+                <ul class="examples-works">
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-7.jpg" alt="Пример вебсайта технокряк" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Технокряк</h2>
+                            <p class="type-work">Веб-сайт</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-8.jpg" alt="Игра баскетбол" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Постер New Orlean vs Golden Star</h2>
+                            <p class="type-work">Дизайн</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-9.jpg" alt="Банер ресторана Seafood" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Ресторан Seafood</h2>
+                            <p class="type-work">Приложение</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-10.jpg" alt="Наушники на изображении" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Проект Prime</h2>
+                            <p class="type-work">Маркетинг</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-11.jpg" alt="Несколько коробок" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Проект Boxes</h2>
+                            <p class="type-work">Приложение</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-12.jpg" alt="Изображение монитора" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Inspiration has no Borders</h2>
+                            <p class="type-work">Веб-сайт</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-13.jpg" alt="Журнал" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Издание Limited Edition</h2>
+                            <p class="type-work">Дизайн</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-14.jpg" alt="Лейбл" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Проект LAB</h2>
+                            <p class="type-work">Маркетинг</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="examples-posters">
+                        <a class="reference-example" href="/">
+                            <img src="./images/img-15.jpg" alt="Изображение ноутбука" width="370" height="294">
+                        <div class="border">
+                            <h2 class="examples-description">Growing Business</h2>
+                            <p class="type-work">Приложение</p>
+                        </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+ <!-- Контактная информация -->
+ <footer class="footer-contacts">
+    <div class="container">
+        <div class="footer-container">
+            <a href="./index.html" class="footer-logo"><span class="logo-web">Web</span>Studio</a>
+            <address>
+                <ul class="footer-description list">
+                    <li class="footer-contact">
+                        <a href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
+                        target="_blank"
+                         rel="noopener nofollow noreferrer"
+                         class="footer-data">г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
+                    <li class="footer-contact"><a href="mailto:info@devstudio.com" class="footer-data email">info@devstudio.com</a></li>
+                    <li class="footer-contact"><a href="tel:+380961111111" class="footer-data tel">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
+    <!-- Присоединяйтесь к нам! -->
+        <div class="join-us">
+            <p class="join">Присоединяйтесь</p>
+            <ul class="join-contacts list">
+                <li class="join-contacts-item">
+                    <a class="join-contacts-link" href="/">
+                        <svg class="icon-contacts">
+                            <use href="./images/sprite.svg#icon-instagram" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-contacts-item">
+                    <a class="join-contacts-link current" href="/">
+                        <svg class="icon-contacts">
+                            <use href="./images/sprite.svg#icon-twitter" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-contacts-item">
+                    <a class="join-contacts-link" href="/">
+                        <svg class="icon-contacts">
+                            <use href="./images/sprite.svg#icon-facebook" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-contacts-item">
+                    <a class="join-contacts-link" href="/">
+                        <svg class="icon-contacts">
+                            <use href="./images/sprite.svg#icon-linkedin" width="20px" height="20px"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
