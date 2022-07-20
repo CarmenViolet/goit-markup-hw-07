@@ -25,7 +25,7 @@
                         <li class="item">
                         <a href="mailto:info@devstudio.com" class="contact-link email">
                         <span class="icon-link">
-                            <svg class="icon-envelope" width="16px" height="12px">
+                            <svg class="icon-envelope" width="14px" height="16px">
                                 <use href="./images/sprite.svg#icon-envelope"></use>
                             </svg>
                         </span>
@@ -34,7 +34,7 @@
                         <li class="item">
                         <a href="tel:+380961111111" class="contact-link tel">
                         <span class="icon-link">
-                            <svg class="icon-smartphone" width="10px" height="16px">
+                            <svg class="icon-smartphone" width="12px" height="16px">
                                 <use href="./images/sprite.svg#icon-smartphone"></use>
                             </svg>
                         </span>
@@ -247,7 +247,24 @@
                 </li>
             </ul>
         </div>
+        <!-- Подписка на рассылку -->
+        <div class="disctribution">
+            <p class="subscribe-us">Подпишитесь на рассылку</p>
+            <div class="subscribe-container">
+                <form class="subscribe-form" action="#">
+                    <label for="email">
+                        <input type="email" name="email" class="subscribe-email" placeholder="E-mail">
+                    </label>
+                    <button class="subscribe-btn" type="submit">Подписаться
+                        <svg class="icon-send" width="24px" height="24px">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
     </div>
 </footer>
+<script src="./js/modal.js"></script>
 </body>
 </html>
