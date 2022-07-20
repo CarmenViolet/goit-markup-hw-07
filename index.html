@@ -25,7 +25,7 @@
                             <li class="item">
                             <a href="mailto:info@devstudio.com" class="contact-link email">
                             <span class="icon-link">
-                                <svg class="icon-envelope" width="16px" height="12px">
+                                <svg class="icon-envelope" width="14px" height="16px">
                                     <use href="./images/sprite.svg#icon-envelope"></use>
                                 </svg>
                             </span>
@@ -34,7 +34,7 @@
                             <li class="item">
                             <a href="tel:+380961111111" class="contact-link tel">
                             <span class="icon-link">
-                                <svg class="icon-smartphone" width="10px" height="16px">
+                                <svg class="icon-smartphone" width="12px" height="16px">
                                     <use href="./images/sprite.svg#icon-smartphone"></use>
                                 </svg>
                             </span>
@@ -51,6 +51,7 @@
                 <div class="container">
                     <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
                     <button type="button" class="banner-button" data-modal-open>Заказать услугу</button>
+            <!-- Модальное окно -->
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
                             <button class="modal-button" data-modal-close>
@@ -58,6 +59,68 @@
                                     <use href="./images/sprite.svg#icon-close"></use>
                                 </svg>
                             </button>
+                            <!-- Контактная информация (Форма) -->
+                            <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+                             <form class="form" action="" >
+                              <div class="form-container">
+                                  
+                                            <label class="form-field" for="user-name">
+                                                <span class="form-field-label">Имя</span>
+                                                <div class="input-container">
+                                                    <input class="form-field-input" type="text" name="user-name" id="user-name">
+                                                    <span class="icon-input">
+                                                        <svg width="18px" height="18px">
+                                                            <use href="./images/sprite.svg#icon-person"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </label>
+                                  
+                                  
+                                            <label class="form-field" for="user-tel">
+                                                <span class="form-field-label">Телефон</span>
+                                                <div class="input-container">
+                                                    <input class="form-field-input" type="tel" name="user-tel" id="user-tel" required>
+                                                    <span class="icon-input">
+                                                        <svg width="18px" height="18px">
+                                                            <use href="./images/sprite.svg#icon-phone"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </label>
+                                  
+                                  
+                                            <label class="form-field" for="user-email">
+                                                <span class="form-field-label">Почта</span>
+                                                <div class="input-container">
+                                                    <input class="form-field-input" type="email" name="user-email" id="user-email" required>
+                                                    <span class="icon-input">
+                                                        <svg width="18px" height="18px">
+                                                            <use href="./images/sprite.svg#icon-email"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </label>
+                                           
+                                            <label class="form-field comment" for="comment">
+                                                <span class="form-field-label">Комментарий</span>
+                                                <textarea class="form-field-input comment" name="comment" id="comment" placeholder="Введите текст" style="width: 448px; height: 120px;"></textarea>
+                                            </label>
+
+                                            <label class="form-field policy" for="policy">
+                                                <input class="checkbox-policy visually-hidden" type="checkbox" id="policy" name="policy">
+                                                <span class="checkbox-icon">
+                                                    <svg class="icon-agreement" width="16px" height="16px">
+                                                        <use href="./images/sprite.svg#icon-agreement"></use>
+                                                    </svg>
+                                                </span>
+                                                <span class="form-agreement">Соглашаюсь с рассылкой и принимаю 
+                                                    <a class="policy-link" href="">Условия договора</a>
+                                                </span>
+                                            </label>                            
+                                        <button class="form-btn" type="submit">Отправить</button>
+                              </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -132,23 +195,23 @@
                             <p class="card-description photo">Product Designer</p>
                                 <div class="social-media">
                                     <a href="" class="social-media-item">
-                                        <svg class="team-social-contacts">
-                                            <use href="./images/sprite.svg#icon-instagram" width="20px" height="20px"></use>
+                                        <svg class="team-social-contacts" width="20px" height="20px">
+                                            <use href="./images/sprite.svg#icon-instagram" ></use>
                                         </svg>
                                     </a>
                                     <a href="" class="social-media-item">
-                                        <svg class="team-social-contacts">
-                                            <use href="./images/sprite.svg#icon-twitter" width="20px" height="20px"></use>
+                                        <svg class="team-social-contacts"  width="20px" height="20px">
+                                            <use href="./images/sprite.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                     <a href="" class="social-media-item">
-                                        <svg class="team-social-contacts">
-                                            <use href="./images/sprite.svg#icon-facebook" width="20px" height="20px"></use>
+                                        <svg class="team-social-contacts" width="20px" height="20px">
+                                            <use href="./images/sprite.svg#icon-facebook" ></use>
                                         </svg>
                                     </a>
                                     <a href="" class="social-media-item">
-                                        <svg class="team-social-contacts">
-                                            <use href="./images/sprite.svg#icon-linkedin" width="20px" height="20px"></use>
+                                        <svg class="team-social-contacts" width="20px" height="20px">
+                                            <use href="./images/sprite.svg#icon-linkedin" ></use>
                                         </svg>
                                     </a>
                                 </div>
@@ -159,23 +222,23 @@
                             <p class="card-description photo">Frontend Developer</p>
                             <div class="social-media">
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-instagram" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-twitter" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts"  width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-facebook" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-linkedin" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -186,23 +249,23 @@
                             <p class="card-description photo">Marketing</p>
                             <div class="social-media">
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-instagram" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-twitter" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-facebook" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-linkedin" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -213,23 +276,23 @@
                             <p class="card-description photo">UI Designer</p>
                             <div class="social-media">
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-instagram" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-twitter" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-facebook" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                                 <a href="" class="social-media-item">
-                                    <svg class="team-social-contacts">
-                                        <use href="./images/sprite.svg#icon-linkedin" width="20px" height="20px"></use>
+                                    <svg class="team-social-contacts" width="20px" height="20px">
+                                        <use href="./images/sprite.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -339,6 +402,22 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <!-- Подписка на рассылку -->
+            <div class="disctribution">
+                <p class="subscribe-us">Подпишитесь на рассылку</p>
+                <div class="subscribe-container">
+                    <form class="subscribe-form" action="#">
+                        <label for="email">
+                            <input type="email" name="email" class="subscribe-email" placeholder="E-mail">
+                        </label>
+                        <button class="subscribe-btn" type="submit">Подписаться
+                            <svg class="icon-send" width="24px" height="24px">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </footer>
