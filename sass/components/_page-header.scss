@@ -1,0 +1,161 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 93px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    text-decoration: none;
+    
+    color: #000000;
+}
+
+.logo__label {
+    color: var(--accent-color);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+
+    & :not(:last-child) {
+        margin-right: 50px;
+    }
+}
+
+.header-list__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    position: relative;
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    
+    color: var(--primary-text-color);
+
+    transition: color 250ms var(--timing-function);
+    
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
+    &::after {
+        display: block;
+        content: '';
+    
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        
+        width: 100%;
+        height: 4px;
+        
+        background-color: var(--accent-color);
+        border-radius: 2px;
+    
+        transform: scaleX(0);
+        transition: transform 250ms var(--timing-function);
+    }   
+
+    &:hover::after {
+    transform: scaleX(1);
+}
+}
+
+.header-list__link--current {
+    color: var(--accent-color);
+   
+    &::after {
+        display: block;
+        content: '';
+    
+        left: 0;
+        bottom: -1px;
+        
+        width: 100%;
+        height: 4px;
+        
+        background-color: var(--accent-color);
+        border-radius: 2px;
+        transform: scaleX(1);
+    }
+    
+}
+
+.header-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-contacts__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-contacts__link--email {
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: var(--secondary-text-color);
+
+    transition: color 250ms var(--timing-function);
+   
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+.header-contacts__link--tel {
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: var(--secondary-text-color);
+
+    transition: color 250ms var(--timing-function);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+}
+
+.header-contacts__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.icon-envelope,
+.icon-smartphone {
+    fill: currentColor;
+}

@@ -7,7 +7,7 @@
 Цвет футера: #2F303A
  */
 
-html {
+/* html {
     box-sizing: border-box;
 }
 
@@ -77,11 +77,11 @@ p {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 /* Header */
 
-.header {
+/* .header {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -237,11 +237,11 @@ p {
 .icon-envelope,
 .icon-smartphone {
     fill: currentColor;
-}
+} */
 
 /* Banner & Modal Window & User Form*/
 
-.banner-overlay {
+/* .banner-overlay {
     margin: 0 auto;
 
     max-width: 1600px;
@@ -304,9 +304,9 @@ p {
 .banner-overlay__button:focus {
     background-color: var(--main-white);
     color: var(--accent-color);
-}
+} */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -364,9 +364,9 @@ p {
 .modal__icon-close {
     width: 18px;
     height: 18px;
-}
+} */
 
-.form {
+/* .form {
     display: flex;
     flex-direction: column;
     width: 448px;
@@ -545,11 +545,11 @@ p {
 .form__button:hover,
 .form__button:focus {
     background-color: #2195f3cb;
-}
+} */
 
 /* Sub-banner */
 
-.sub-banner {
+/* .sub-banner {
     padding-bottom: 0;
 }
 
@@ -631,7 +631,7 @@ color: var(--secondary-text-color);
 
 /* What are we doing */
 
-.examples__title {
+/* .examples__title {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -679,11 +679,11 @@ color: var(--secondary-text-color);
     text-transform: uppercase;
 
     color: #FFFFFF;
-}
+} */ 
 
 /* Our Team */
 
-.our-team {
+/* .our-team {
     background-color: #F5F4FA;
 }
 
@@ -774,11 +774,11 @@ color: var(--secondary-text-color);
 
 .social-contacts__icon:hover {
     fill: #FFFFFF;
-}
+} */
 
 /* Our Clients */
 
-.regular-clients__title {
+/* .regular-clients__title {
     text-align: center;
     margin-bottom: 50px;
 
@@ -820,11 +820,11 @@ color: var(--secondary-text-color);
     width: 106px;
     height: 60px;
     fill: currentColor;
-}
+} */
 
 /* Filter Buttons */
 
-.filter-button__list {
+/* .filter-button__list {
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -867,11 +867,11 @@ color: var(--secondary-text-color);
     background-color: var(--accent-color);
     color: var(--main-white);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Posters under filter */
 
-.section__title.hidden {
+/* .section__title.hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -995,11 +995,11 @@ color: var(--secondary-text-color);
     letter-spacing: 0.03em;
     
     color: var(--secondary-text-color);
-}
+} */
 
 /* Footer */
 
-.footer-contacts {
+/* .footer-contacts {
     padding-bottom: 60px;
     padding-top: 60px;
 
@@ -1055,11 +1055,11 @@ color: var(--secondary-text-color);
 .footer-contacts__link--tel:hover,
 .footer-contacts__link--tel:focus {
     color: var(--accent-color);
-}
+} */
 
 /* Social links in footer */
 
-.footer-contacts > .container {
+/* .footer-contacts > .container {
     display: flex;
 }
 
@@ -1114,7 +1114,7 @@ color: var(--secondary-text-color);
     padding: 12px;
     
     fill: #FFFFFF;
-}
+} */
 
 /* Distribution subscribe */
 
