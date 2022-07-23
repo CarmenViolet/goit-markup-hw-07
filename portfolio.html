@@ -12,28 +12,28 @@
 <body>
     <!-- Шапка сайта -->
     <header class="header">
-        <div class="container">
-                <nav class="navigation">
-                    <a href="index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
-                    <ul class="navigation-links list">
-                        <li class="item"><a href="./index.html" class="link-navigation">Студия</a></li>
-                        <li class="item"><a href="portfolio.html" class="link-navigation current">Портфолио</a></li>
-                        <li class="item"><a href="/" class="link-navigation">Контакты</a></li>
+        <div class="container header__container">
+                <nav class="nav">
+                    <a href="index.html" class="logo header__logo"><span class="logo__label">Web</span>Studio</a>
+                    <ul class="header-list list">
+                        <li class="header-list__item"><a href="./index.html" class="header-list__link header-list__link">Студия</a></li>
+                        <li class="header-list__item"><a href="portfolio.html" class="header-list__link header-list__link--current">Портфолио</a></li>
+                        <li class="header-list__item"><a href="/" class="header-list__link">Контакты</a></li>
                     </ul>
                 </nav>
-                    <ul class="contacts list">
-                        <li class="item">
-                        <a href="mailto:info@devstudio.com" class="contact-link email">
-                        <span class="icon-link">
+                    <ul class="header-contacts list">
+                        <li class="header-contacts__item">
+                        <a href="mailto:info@devstudio.com" class="header-contacts__link header-contacts__link--email">
+                        <span class="header-contacts__icon">
                             <svg class="icon-envelope" width="14px" height="16px">
                                 <use href="./images/sprite.svg#icon-envelope"></use>
                             </svg>
                         </span>
                     info@devstudio.com</a>
                     </li>
-                        <li class="item">
-                        <a href="tel:+380961111111" class="contact-link tel">
-                        <span class="icon-link">
+                        <li class="header-contacts__item">
+                        <a href="tel:+380961111111" class="header-contacts__link header-contacts__link--tel">
+                        <span class="header-contacts__icon">
                             <svg class="icon-smartphone" width="12px" height="16px">
                                 <use href="./images/sprite.svg#icon-smartphone"></use>
                             </svg>
@@ -47,147 +47,147 @@
     <main>
         <section class="section">
             <div class="container">
-                <h1 class="section-title hidden">Примеры работ</h1>
-                <ul class="filter-btn-list">
-                    <li class="f-button"><button type="button" class="filter-btn-item current">Все</button></li>
-                    <li class="f-button"><button type="button" class="filter-btn-item">Веб-сайты</button></li>
-                    <li class="f-button"><button type="button" class="filter-btn-item">Приложения</button></li>
-                    <li class="f-button"><button type="button" class="filter-btn-item">Дизайн</button></li>
-                    <li class="f-button"><button type="button" class="filter-btn-item">Маркетинг</button></li>
+                <h1 class="section__title hidden">Примеры работ</h1>
+                <ul class="filter-button__list">
+                    <li class="filter-button__item"><button type="button" class="filter-button__button filter-button__button--current">Все</button></li>
+                    <li class="filter-button__item"><button type="button" class="filter-button__button">Веб-сайты</button></li>
+                    <li class="filter-button__item"><button type="button" class="filter-button__button">Приложения</button></li>
+                    <li class="filter-button__item"><button type="button" class="filter-button__button">Дизайн</button></li>
+                    <li class="filter-button__item"><button type="button" class="filter-button__button">Маркетинг</button></li>
                 </ul>
-                <ul class="examples-works">
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                <ul class="examples">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-7.jpg" alt="Пример вебсайта технокряк" width="370" height="294">
-                                <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                                <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Технокряк</h2>
-                            <p class="type-work">Веб-сайт</p>
+                            <h2 class="border__description">Технокряк</h2>
+                            <p class="border__text">Веб-сайт</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-8.jpg" alt="Игра баскетбол" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Постер New Orlean vs Golden Star</h2>
-                            <p class="type-work">Дизайн</p>
+                            <h2 class="border__description">Постер New Orlean vs Golden Star</h2>
+                            <p class="border__text">Дизайн</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-9.jpg" alt="Банер ресторана Seafood" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Ресторан Seafood</h2>
-                            <p class="type-work">Приложение</p>
+                            <h2 class="border__description">Ресторан Seafood</h2>
+                            <p class="border__text">Приложение</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-10.jpg" alt="Наушники на изображении" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Проект Prime</h2>
-                            <p class="type-work">Маркетинг</p>
+                            <h2 class="border__description">Проект Prime</h2>
+                            <p class="border__text">Маркетинг</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-11.jpg" alt="Несколько коробок" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Проект Boxes</h2>
-                            <p class="type-work">Приложение</p>
+                            <h2 class="border__description">Проект Boxes</h2>
+                            <p class="border__text">Приложение</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-12.jpg" alt="Изображение монитора" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Inspiration has no Borders</h2>
-                            <p class="type-work">Веб-сайт</p>
+                            <h2 class="border__description">Inspiration has no Borders</h2>
+                            <p class="border__text">Веб-сайт</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-13.jpg" alt="Журнал" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Издание Limited Edition</h2>
-                            <p class="type-work">Дизайн</p>
+                            <h2 class="border__description">Издание Limited Edition</h2>
+                            <p class="border__text">Дизайн</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-14.jpg" alt="Лейбл" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Проект LAB</h2>
-                            <p class="type-work">Маркетинг</p>
+                            <h2 class="border__description">Проект LAB</h2>
+                            <p class="border__text">Маркетинг</p>
                         </div>
                         </a>
                     </li>
-                    <li class="examples-posters">
-                        <a class="reference-example" href="/">
-                            <div class="reference-overlay-animated">
+                    <li class="examples__item">
+                        <a class="examples__link" href="/">
+                            <div class="overlay-animated">
                             <img src="./images/img-15.jpg" alt="Изображение ноутбука" width="370" height="294">
-                             <div class="overlay-text-animated">
-                                    <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
+                             <div class="overlay-animated__container">
+                                    <p class="overlay-animated__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                                     Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                                 </div>
                             </div>
                         <div class="border">
-                            <h2 class="examples-description">Growing Business</h2>
-                            <p class="type-work">Приложение</p>
+                            <h2 class="border__description">Growing Business</h2>
+                            <p class="border__text">Приложение</p>
                         </div>
                         </a>
                     </li>
@@ -199,48 +199,48 @@
  <footer class="footer-contacts">
     <div class="container">
         <div class="footer-container">
-            <a href="./index.html" class="footer-logo"><span class="logo-web">Web</span>Studio</a>
+            <a href="./index.html" class="logo footer__logo"><span class="logo__label">Web</span>Studio</a>
             <address>
-                <ul class="footer-description list">
-                    <li class="footer-contact">
+                <ul class="footer-contacts__list list">
+                    <li class="footer-contacts__item">
                         <a href="https://goo.gl/maps/piqngm7oDQpEDh6u6"
                         target="_blank"
                          rel="noopener nofollow noreferrer"
-                         class="footer-data">г. Киев, пр-т Леси Украинки, 26</a>
+                         class="footer-contacts__link">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li class="footer-contact"><a href="mailto:info@devstudio.com" class="footer-data email">info@devstudio.com</a></li>
-                    <li class="footer-contact"><a href="tel:+380961111111" class="footer-data tel">+38 096 111 11 11</a></li>
+                    <li class="footer-contacts__item"><a href="mailto:info@devstudio.com" class="footer-contacts__link footer-contacts__link--email">info@devstudio.com</a></li>
+                    <li class="footer-contacts__item"><a href="tel:+380961111111" class="footer-contacts__link footer-contacts__link--tel">+38 096 111 11 11</a></li>
                 </ul>
             </address>
         </div>
     <!-- Присоединяйтесь к нам! -->
-        <div class="join-us">
-            <p class="join">Присоединяйтесь</p>
-            <ul class="join-contacts list">
-                <li class="join-contacts-item">
-                    <a class="join-contacts-link" href="/">
-                        <svg class="icon-contacts">
+        <div class="social-media">
+            <p class="social-media__header">Присоединяйтесь</p>
+            <ul class="social-media__list list">
+                <li class="social-media__item">
+                    <a class="social-media__link" href="/">
+                        <svg class="social-media__icon">
                             <use href="./images/sprite.svg#icon-instagram" width="20px" height="20px"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="join-contacts-item">
-                    <a class="join-contacts-link current" href="/">
-                        <svg class="icon-contacts">
+                <li class="social-media__item">
+                    <a class="social-media__link" href="/">
+                        <svg class="social-media__icon">
                             <use href="./images/sprite.svg#icon-twitter" width="20px" height="20px"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="join-contacts-item">
-                    <a class="join-contacts-link" href="/">
-                        <svg class="icon-contacts">
+                <li class="social-media__item">
+                    <a class="social-media__link" href="/">
+                        <svg class="social-media__icon">
                             <use href="./images/sprite.svg#icon-facebook" width="20px" height="20px"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="join-contacts-item">
-                    <a class="join-contacts-link" href="/">
-                        <svg class="icon-contacts">
+                <li class="social-media__item">
+                    <a class="social-media__link" href="/">
+                        <svg class="social-media__icon">
                             <use href="./images/sprite.svg#icon-linkedin" width="20px" height="20px"></use>
                         </svg>
                     </a>
@@ -249,14 +249,14 @@
         </div>
         <!-- Подписка на рассылку -->
         <div class="disctribution">
-            <p class="subscribe-us">Подпишитесь на рассылку</p>
+            <p class="disctribution__header">Подпишитесь на рассылку</p>
             <div class="subscribe-container">
                 <form class="subscribe-form" action="#">
                     <label for="email">
-                        <input type="email" name="email" class="subscribe-email" placeholder="E-mail">
+                        <input class="subscribe-form__email" type="email" name="email" placeholder="E-mail">
                     </label>
-                    <button class="subscribe-btn" type="submit">Подписаться
-                        <svg class="icon-send" width="24px" height="24px">
+                    <button class="subscribe-form__button" type="submit">Подписаться
+                        <svg class="subscribe-form__icon" width="24px" height="24px">
                             <use href="./images/sprite.svg#icon-send"></use>
                         </svg>
                     </button>
@@ -265,6 +265,5 @@
         </div>
     </div>
 </footer>
-<script src="./js/modal.js"></script>
 </body>
 </html>
